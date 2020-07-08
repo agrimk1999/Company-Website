@@ -1,0 +1,106 @@
+/*style background image, add font family*/
+body{
+    font-family: Arvo,serif;
+    background: url(https://freenaturestock.s3.us-east-1.amazonaws.com/232.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+/*style brand*/
+.crown{
+
+    height: 30px;
+}
+
+
+/*style navigation bar*/
+.navbar-inverse{
+    
+    background: rgba(0,0,0,0.5);
+}
+.nav li{
+    color: #fff;
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px;
+    
+}
+.nav li:hover{
+    border-bottom: 1px solid #00FFBB;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+
+/*style jumbotron*/
+
+.jumbotron{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+}
+
+/*style icons section , limit the width of icons section*/
+.body-image{
+    height: 100px;
+}
+.col-md-4{
+text-align: center;
+    color: white;
+}
+.icons{
+    margin-top: 5px;
+    
+}
+.icons p{
+font-size: 15px;
+}
+
+.container{
+    max-width: 1000px;
+    
+}
+/*style contact button*/
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.btn{
+    background: rgba(0,255,184,0.5);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+    margin-bottom: 200px;
+}
+.btn:hover{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+}
+
+/*style footer*/
+.footer{
+    background: rgba(0,0,0,0.5);
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+
+/*use media queries to change size of icons*/
+@media (max-width:768px)
+{
+    .body-image{
+        height: 70px;
+
+    }
+}
